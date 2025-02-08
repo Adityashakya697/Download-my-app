@@ -33,3 +33,14 @@ function checker(input) {
     document.getElementById("computer_score").innerText = computer_score;
     document.getElementById("user_score").innerText = user_score;
 }
+
+function restartGame() {
+    computer_score = 0;
+    user_score = 0;
+    document.getElementById("computer_score").innerText = computer_score;
+    document.getElementById("user_score").innerText = user_score;
+    document.getElementById("comp_choice").innerHTML = "";
+    document.getElementById("user_choice").innerHTML = "";
+    result_ref.innerHTML = "";
+    result_ref.className = "";
+}

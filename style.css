@@ -23,6 +23,7 @@ body {
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
     text-align: center;
     color: #fff;
+  
 }
 
 h1 {
@@ -95,6 +96,7 @@ h1 {
     color: white;
 }
 
+
 /* Responsive Design */
 @media (max-width: 500px) {
     .container {
@@ -111,4 +113,31 @@ h1 {
     .scores {
         font-size: 16px;
     }
+}
+#restart {
+    background: #ff4d4d;
+    color: white;
+    border: none;
+    padding: 14px 28px;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 8px;
+    transition: 0.3s ease-in-out;
+    width: 200px;
+    text-align: center;
+}
+
+.restart-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px; 
+    position: relative;
+    top: -1px;
+}
+
+#restart:hover {
+    background: #e60000;
+    transform: scale(1.05);
 }
