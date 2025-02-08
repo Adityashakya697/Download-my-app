@@ -28,6 +28,3 @@ A simple yet visually appealing **Rock Paper Scissors** game built using **HTML,
 ## 👨‍💻 Developed By  
 **Aditya (Aditech)**  
 
----
-
-This README is professional, clear, and to the point. Let me know if you want any modifications!
